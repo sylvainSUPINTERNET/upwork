@@ -1,0 +1,185 @@
+ISSUE ID;PRODUCT;DESCRIPTION;STATUS;TIMESTAMP
+"830502
+900096";TABLEAU BRIDGE;"When publishing or accessing a Tableau Online view that used the TableauServerUser variable with Tableau Bridge, a ""Cannot evaluate user filter"" or ""Unable to connect to the server"" error occurred.  Request is to support impersonation with Tableau Bridge.";OPEN;08/02/2023 20:03
+1478458;TABLEAU BRIDGE;The second refresh could fail with an OAuth token error when using a multi-connection Bridge that includes Google Drive.;OPEN;08/02/2023 20:03
+1395120;TABLEAU DESKTOP, TABLEAU SERVER;"When publishing a data source from Tableau Desktop version 2022.2 or higher to a lower version of Tableau Server such as 2022.1, an error would occur stating, ""An error occurred when publishing the data source. Cannot publish to Tableau Server.  Please make sure you are connected to a compatible version of the server."" For more information please see this Tableau Knowledge Base article.";OPEN;08/02/2023 20:03
+1420805;TABLEAU DESKTOP;Row and column divider borders are thicker in the header than in the pane starting with version 2021.1.;OPEN;08/02/2023 20:03
+1440525;TABLEAU CLOUD, TABLEAU DESKTOP;NULL values would remain in the Quick Filter when only NULL values are excluded in a dimension filter starting with 2022.2.0.;OPEN;08/02/2023 20:03
+1458909;TABLEAU CLOUD, TABLEAU DESKTOP, TABLEAU SERVER;Queries of a virtual connection could be unsuccessful when included columns are renamed or removed from a database. The workaround is to edit the virtual connection and replace or delete these columns, and then republish the virtual connection.;OPEN;08/02/2023 20:03
+1403071;TABLEAU CLOUD, TABLEAU DESKTOP;Workbook utilizing a polygon map or territorial mapping has a hole or gap when published to Tableau Cloud or when opened in the latest version of Tableau Desktop.;OPEN;08/02/2023 20:03
+1224909;TABLEAU CLOUD;"When an alert is created on a MySQL data source, an error could result when using web authoring stating , ""Unable to create alert because there was an error connecting to the data source.""";OPEN;08/02/2023 20:03
+1127364;TABLEAU CLOUD, TABLEAU SERVER;When an additional data source is added using web edit, there is no prompt for credentials.;OPEN;08/02/2023 20:03
+"1257638
+1276556";TABLEAU CLOUD;Page setup scaling options do not stay set when a workbook is download from Tableau Online 2021.1 via the user interface.;OPEN;08/02/2023 20:03
+"1392772
+1383768";TABLEAU CLOUD;Scheduled extract refreshes and subscriptions could be intermittently skipped. No errors are presented when these jobs are not completed.;OPEN;08/02/2023 20:03
+1388839;TABLEAU CLOUD, TABLEAU SERVER;In a project description when parenthesis are preceded by an upper case letter, the parenthesis and text within the parenthesis would not be displayed in the project tooltip.;OPEN;08/02/2023 20:03
+1369143;TABLEAU CLOUD;On the Explore page list view for data sources, the last modified date could display an incorrect value. The data source details page does have the correct last modified date.;OPEN;08/02/2023 20:03
+1357543;TABLEAU CLOUD;"When refreshing or connecting to Amazon Redshift in Tableau Online, errors would sometimes display showing ""Error occurred while trying to prepare a query"" or ""[SQLState XX000] extraneous data in \""T\"" message."" Amazon Redshift driver updated to 1.4.53.";OPEN;08/02/2023 20:03
+1352649;TABLEAU CLOUD;Okta SCIM could reset a user to a Viewer role when the name changed in Okta even when the site role was not configured to map to Tableau Online from Okta.;OPEN;08/02/2023 20:03
+1411816;TABLEAU CLOUD, TABLEAU SERVER;The sort order of a calculated field could be changed or duplicated after replacing the published data source using the REST API.;OPEN;08/02/2023 20:03
+1425643;TABLEAU CLOUD;When attempting to refresh a Google Analytics data source in Tableau Cloud, the refresh is sent to Tableau Bridge instead of connecting directly from Tableau Cloud.;OPEN;08/02/2023 20:03
+1439091;TABLEAU CLOUD;Virtual Connection updates are not reflected in related Data Sources.;OPEN;08/02/2023 20:03
+1441970;TABLEAU CLOUD, TABLEAU SERVER;When loading a dashboard that contains a web object to a web page that has a text box, the cursor goes to the text box and the user is sent to the bottom of the dashboard on load instead of staying at the top of the dashboard causing the need to scroll up.;OPEN;08/02/2023 20:03
+1431798;TABLEAU CLOUD, TABLEAU SERVER;It is not possible to export a specific sheet using the JavaScript showExportDataDialog function starting with version 2022.1. For more information see this Tableau Knowledge Base article.;OPEN;08/02/2023 20:03
+1440311;TABLEAU CLOUD;It is not possible to create an extract for a Google BigQuery virtual connection.;OPEN;08/02/2023 20:03
+"1429332
+1461663";TABLEAU CLOUD;"It is not possible to connect to a Presto DB server that is using SSL with Tableau Cloud but Tableau Desktop can connect. The error received in Tableau Cloud is ""[Simba][Presto] (1020)...Peer certificate cannot be authenticated with given CA certificates.""";OPEN;08/02/2023 20:03
+1470029;TABLEAU CLOUD, TABLEAU SERVER;"Quickbooks Online extracts could fail to refresh with error, ""No realm ID is detected"", when using saved credentials for the data connection starting with Tableau Server 2022.3 and on Tableau Cloud. For more information see the Tableau Knowledge Base article.";OPEN;08/02/2023 20:03
+1465152;TABLEAU CLOUD;Saml-enabled Tableau Cloud users may be unable to login because the password field displays instead of being redirected to the IdP. For more information, please see this Tableau Knowledge Base article.;OPEN;08/02/2023 20:03
+1470516;TABLEAU CLOUD;"When provisioning an Azure AD user that was initially set as ""unlicensed"", the user could become a ""Viewer"" after a sync job was run with Tableau Cloud.";OPEN;08/02/2023 20:03
+1460581;TABLEAU CLOUD;"When attempting to save a token in the Okta Admin Console, the following error occurs, ""Error authenticating scim.online.tableau.com:443 failed to respond.""";OPEN;08/02/2023 20:03
+1372696;TABLEAU CLOUD;"With a Box data source that is not published but connected directly from a flow and placed in the input steps of the flow, the flow can intermittently fail with ""System error: 'Authentication failed'"".";OPEN;08/02/2023 20:03
+1493086;TABLEAU CLOUD;Assigning permissions to content when locking a project are not always reflected for Explorer or Viewer users.;OPEN;08/02/2023 20:03
+"1497952
+1498157";TABLEAU CLOUD, TABLEAU SERVER;"When accessing a Salesforce Lightning page with a Tableau dashboard embedded view, the error ""Cannot read properties of null (reading 'width')"" can occur.";OPEN;08/02/2023 20:03
+"1079300
+1204939";TABLEAU PREP;In Write to Database, if the database or schema does not have any tables (it is empty), navigating to the schema or database will not be possible. The schema needs to have at least one table created to be visible for selection.;OPEN;08/02/2023 20:03
+1349155;TABLEAU PREP;"When a user had a Google Drive enabled for their Tableau Prep Repository folder, they would not be unable to delete ""Recovered Flows"" from the Prep Builder UI. The workaround is to turn off Google Drive sync and manually delete the folders in the My Tableau Prep Repository/Recovered Flows directory.";OPEN;08/02/2023 20:03
+1439910;TABLEAU PREP;The list of tables when connected to a PostgreSQL database would not show all the tables if there were more than 16384 tables.;OPEN;08/02/2023 20:03
+1481189;TABLEAU PREP;Starting in 2022.4, when you attempt to drag and drop to replace an input step that has no steps attached, the replace drop target does not appear.;OPEN;08/02/2023 20:03
+1488419;TABLEAU PREP;Starting with 2022.4, using Redshift and Vertica data and writing to the external database, a user cannot select a schema. It is still possible to load and run existing flows that output to these data sources.;OPEN;08/02/2023 20:03
+1487701;TABLEAU PREP, TABLEAU SERVER;"Starting with 2022.4, some Prep flows with queries to Salesforce tables can fail with the error ""System error: An error occurred while communicating with data source 'LoomDataSource'"".";OPEN;08/02/2023 20:03
+1465501;TABLEAU PREP;The date of 1899/12/30 could be in the output file of a clean step after changing a string to a date format when connected to a published data source when the Tableau Server is using a non-English operating system.;OPEN;08/02/2023 20:03
+1492828;TABLEAU PREP;Calculated fields using the Partition function are missing after running a Tableau Prep flow in version 2022.4.;OPEN;08/02/2023 20:03
+1020860;TABLEAU SERVER;When multiple keys are activated on Tableau Server, registration data may not be available in the Tableau Customer Portal for all keys.;OPEN;08/02/2023 20:03
+1375761;TABLEAU SERVER;Taking a backup while using the --multithreaded flag would cause a file handle leak on Windows resulting in high cpu usage for the WMI process.;OPEN;08/02/2023 20:03
+1406167;TABLEAU SERVER;The browser Options menu would not display when performing a right-click in the filter search box on Tableau Server 2021.2 and newer.;OPEN;08/02/2023 20:03
+1376192;TABLEAU SERVER;Changing the input parameters of a SAP HANA data source and republishing the change to Tableau Server does not show the changes when opening a workbook from Tableau Server that connects to this updated data source.;OPEN;08/02/2023 20:03
+1427637;TABLEAU SERVER;"Running ""tabcmd refreshextracts"" with the ""-addcalculations"" flag caused the error, ""SQLSTATE:58S01"" and ""Hyper was unable to resolve the database file path"". This error occurred in versions 2021.2 and higher, but does not occur in 2020.4 or 2021.1.";OPEN;08/02/2023 20:03
+1422395;TABLEAU SERVER;It would not be possible to search users or groups on the permission for content edit screen where the username or group include some Japanese characters (dakuten, handankuten).;OPEN;08/02/2023 20:03
+1378369;TABLEAU SERVER;When using the ATR activation method on Linux, it is possible for the activation server to crash and Tableau Server to become unlicensed.;OPEN;08/02/2023 20:03
+1400801;TABLEAU SERVER;Error code 305B73A6 can occur when dragging and dropping a dimension and using a BigQuery Virtual Connection.;OPEN;08/02/2023 20:03
+"1234439
+1463599";TABLEAU SERVER;Tableau Server on Linux can become unexpectedly unlicensed when not using the ATR activation method.  More information is available in this Tableau Knowledge Base article.;OPEN;08/02/2023 20:03
+1431834;TABLEAU SERVER;A Vizql service crash would occur when opening a workbook with an MSAS OLAP cube data source using driver version 15 or 16 in Tableau Server starting in 2022.1. Further information is available in this Knowledge Base article.;OPEN;08/02/2023 20:03
+1459956;TABLEAU SERVER;"When Tableau Server is activated via the ATR activation service, LBLM licensing on Tableau Desktop and Tableau Prep could fail with ""No seat capacity found for Login-based License Management"" with versions 2021.2.15 and newer, and 2021.3.13 and newer, but not 2021.4 or 2022.1.";OPEN;08/02/2023 20:03
+1424364;TABLEAU SERVER;"In External Actions, after choosing ""Add a constant"" in the map fields dialog, it is not possible to switch to another option.";OPEN;08/02/2023 20:03
+1474725;TABLEAU SERVER;Starting with 2022.3, when Guest access is enabled on a Tableau Server with Core licensing, the Data Orientation pane is available for embedded users, including the Guest user. For more information, please view this Tableau Knowledge Base article.;OPEN;08/02/2023 20:03
+1477190;TABLEAU SERVER;"Starting with version 2022.3, the TSM UI shows a new service, the ""Connection Pooling Service"", which is not configurable or functionally available yet. Please see this Tableau Knowledge Base article for more information.";OPEN;08/02/2023 20:03
+1316530;TABLEAU SERVER;Tableau Server is incompatible with Windows Server 2022. For more information, see this Tableau Knowledge Base article.;OPEN;08/02/2023 20:03
+1478663;TABLEAU SERVER;The date axis scale shows a different date after publishing to Tableau Server when using server rendering mode and the range of dates is set to a period of two days.;OPEN;08/02/2023 20:03
+1435700;TABLEAU SERVER;With client rendering, the column band shading could display incorrectly.;OPEN;08/02/2023 20:03
+1429870;TABLEAU SERVER;The Tableau Prep Conductor process could be in a STATUS_UNAVAILABLE state due to an inability to obtain the license state.;OPEN;08/02/2023 20:03
+1440048;TABLEAU SERVER;Tableau Actions could not execute a flow that contained a Collection Variable input type of Currency.;OPEN;08/02/2023 20:03
+"1491277
+1468474";TABLEAU SERVER;"When creating a new subscription but there is already a similar subscription that differs only by the optional ""message"" field, the Tableau Server response implies a new subscription is created with the new message but in fact, the new subscription is not created.";OPEN;08/02/2023 20:03
+1470344;TABLEAU SERVER;In a high-availability configuration, a scheduled flow could intermittently fail when the Filestore is unavailable on one of the additional nodes.;OPEN;08/02/2023 20:03
+1491299;TABLEAU SERVER;If the Content Security Policy (CSP) reporting or enforcement was enabled, the GraphiQL page might not load or the browser console might display some Content Security Policy directive errors.;OPEN;08/02/2023 20:03
+1491616;TABLEAU SERVER;"The REST API call to ""Run Flow now"" could fail with the error ""Resource not found"".";OPEN;08/02/2023 20:03
+1492598;TABLEAU SERVER;"When running the flow on Tableau Server, the following error can occur ""Comparison method violates its general contract! System error."" The flow does not fail when run on Tableau Prep.";OPEN;08/02/2023 20:03
+1472324;TABLEAU SERVER;Running a flow with MAKEDATETIME is not working as expected.;OPEN;08/02/2023 20:03
+1497643;TABLEAU SERVER;After an upgrade to 2022.3, an embedded dashboard can stop working due to a redirect to the wrong URL using an incorrect port number. This only presents when terminating SSL connections are at the reverse proxy or load balancer. If external SSL is enabled on Tableau Server, then this problem will not occur.;OPEN;08/02/2023 20:03
+1420863;TABLEAU ADVANCED MANAGEMENT;"When uninstalling the Resource Monitoring Tool agent on Windows, the setup process would fail with the error: ""One or more issues caused the setup to fail. Please fix the issues and then retry setup."" More information is available in this Tableau Knowledge Base article.";OPEN;08/02/2023 20:03
+1068267;TABLEAU CLOUD;"When a scheduled extract refresh of a Quickbooks Online data source runs on Tableau Online, the following error occurs intermittently: ""Intuit API Authentication error: Invalid authentication tokens. Login again and retry.""";OPEN;08/02/2023 20:03
+1450859;TABLEAU SERVER;In External Actions, if a dashboard is published with a configuration error in the extension, in View mode, there will be no error and the button will never become enabled.;OPEN;08/02/2023 20:03
+1411990;TABLEAU SERVER;When a workbook is opened, the dynamic parameters would not load a 'datetrunc' value.;OPEN;08/02/2023 20:03
+"1431254
+1438340";TABLEAU SERVER;"Duplicate records could display on the data preview pane, download data button from data preview pane, Rest API, Tabcmd, and the Viz url with "":format=CSV"" parameter.";OPEN;08/02/2023 20:03
+;TABLEAU MOBILE;Admins can now specify a browser - such as Microsoft Edge - to handle the Conditional Access checks under certain conditions. For more information, check out the Override the default browser used for authentication section of the Control Authentication and Access for Tableau Mobile.;"FIXED IN:
+2023.123.6850";08/02/2023 20:03
+1391701;TABLEAU DESKTOP;Alias for a calculated field value reverts to default when removing and re-adding a data source table.;"FIXED IN:
+2022.3.3
+2022.2.6
+2022.1.11
+2021.4.15
+2021.3.20
+2021.2.21
+2021.1.23";08/02/2023 20:03
+"1364581
+1379361
+1470508";TABLEAU DESKTOP;"On Tableau Desktop when attempting to browse published data sources on Tableau Server, an error could result stating ""Your session timed out. Reopen the dialog to connect.""";"FIXED IN:
+2022.3.3
+2022.2.6";08/02/2023 20:03
+1486015;TABLEAU DESKTOP;"When adding a filter from Dimensions and selecting a random value from that Dimension, the following error was received:
+
+Unable to complete action
+Type doesn't match the expected type
+Error Code: 58D44822";"FIXED IN:
+2022.3.3";08/02/2023 20:03
+1479169;TABLEAU CLOUD, TABLEAU SERVER;"When removing a user and the user is not showing to own any content, the following error could display, ""User could not be deleted because they own content."" The error can occur when the user had previously edited a Prep flow and saved the change as a draft. There is a flow remaining in a draft state. Cloud is resolved as of 1/12/2023.";"FIXED IN:
+2022.3.3
+2022.1.11
+2021.4.15
+2021.3.20
+2021.2.21
+2021.1.23";08/02/2023 20:03
+1468102;TABLEAU PREP, TABLEAU SERVER;When using the output to database option for Amazon Redshift, MySQL, Pivotal Greenplum Database, and PostgreSQL in a Prep flow, a log statement was created that contained information about the output data.;"FIXED IN:
+2022.3.3
+2022.1.11
+2021.4.15
+2021.3.20
+2021.2.21
+2021.1.23";08/02/2023 20:03
+1472254;TABLEAU PREP;When launching Tableau Prep 2022.3, the prompt to sign in to Tableau Cloud or Tableau Server would occur each time.;"FIXED IN:
+2022.3.3";08/02/2023 20:03
+1472324;TABLEAU PREP;Running a flow with MAKEDATETIME was not working as expected.;"FIXED IN:
+2022.3.3";08/02/2023 20:03
+1491641;TABLEAU PREP;In version 2022.4, Prep could fail to load data from a local .hyper file.;"FIXED IN:
+2022.4.1";08/02/2023 20:03
+1474850;TABLEAU SERVER;Some customers were unable to establish LDAPS connections between Tableau Server and the identity store after upgrading to the October maintenance release.;"FIXED IN:
+2022.3.3
+2022.1.11
+2021.4.15
+2021.3.20
+2021.2.21
+2021.1.23";08/02/2023 20:03
+1484409;TABLEAU SERVER;"When adding a comment that mentions a user in a view, the mention mail has ""{1}"" and ""{2}"" characters in error with the Japanese language set.";"FIXED IN:
+2022.1.11
+2021.4.15
+2021.3.20
+2021.2.21
+2021.1.23";08/02/2023 20:03
+1474466;TABLEAU SERVER;Frequent failures of Elasticsearch (2021.4 or prior) and OpenSearch (Index & Search Server 2022.1 or newer) processes cause Ask Data outages and Passive status in TSM.;"FIXED IN:
+2022.3.3
+2022.1.11
+2021.4.15
+2021.3.20
+2021.2.21
+2021.1.23";08/02/2023 20:03
+1444084;TABLEAU SERVER;A published view on Tableau Server would not show any data with some calculated fields containing a date calculation but the view displays correctly on Tableau Desktop.;"FIXED IN:
+2022.3.3
+2022.1.11
+2021.4.15
+2021.3.20
+2021.2.21
+2021.1.23";08/02/2023 20:03
+1440993;TABLEAU SERVER;"When using the Add Project Permissions REST API (""/api/../projects/project-id/permissions"") to add a group's permission to a locked parent project, the permissions do not cascade to the children projects.";"FIXED IN:
+2022.3.3
+2022.1.11
+2021.4.15
+2021.3.20
+2021.2.21
+2021.1.23";08/02/2023 20:03
+1493146;TABLEAU SERVER;Updated Tableau Server cloud-file connectors to be in line with best practices.;"FIXED IN:
+2022.3.3
+2022.1.11
+2021.4.15
+2021.3.20
+2021.2.21
+2021.1.23";08/02/2023 20:03
+1477801;TABLEAU SERVER;"GraphQL MetaData API query returned a ""Null"" value for the folderName attribute when using a Tableau auto-generated field created in a custom folder.";"FIXED IN:
+2021.3.20
+2021.2.21";08/02/2023 20:03
+1447040;TABLEAU SERVER;When configured with the ATR activation service, Tableau Server HA does not have a grace period if the initial node goes down.;"FIXED IN:
+2022.3.3
+2022.1.11
+2021.4.15";08/02/2023 20:03
+1431244;TABLEAU SERVER;"On RedHat, CentOS, and Oracle Linux, when initializing TSM, the tabadmincontroller could crash which would not allow an installation to complete. All Intel(R) Xeon(R) Gold/Silver CPU platforms are impacted. The error, ""Operation Error
+One or more control plane services(s) are in a non-active state. Run tsm status -v for more information. Services:tabadmicontroller. Status : Down.
+Error : TSM Services returned status 10"" would display.";"FIXED IN:
+2022.3.3
+2022.1.11
+2021.4.15";08/02/2023 20:03
+1473183;TABLEAU SERVER;In the REST API for filtering, the Query Datasource calling projectName would not display any results after upgrading to 2022.1.6.;"FIXED IN:
+2022.3.3
+2022.1.11";08/02/2023 20:03
+1461452;TABLEAU SERVER;SAP HANA input parameters would prompt every time a sheet was changed.;"FIXED IN:
+2022.3.3
+2022.1.11";08/02/2023 20:03
+1491266;TABLEAU SERVER;Tableau Server upgrade to 2022.3 was requiring a minimum of 64GB of memory on additional nodes instead of the documented 16GB.;"FIXED IN:
+2022.3.3";08/02/2023 20:03
+1492305;TABLEAU SERVER;"It would not be possible to view the ""Stats for Space Usage"" Admin view and the error would display, ""Forbidden Action. To access this workbook, you must have the Connect permission for its data source.""";"FIXED IN:
+2022.3.3";08/02/2023 20:03
+1453781;TABLEAU SERVER;"The number of ""All Users"" displayed on Groups, was one greater than the actual number.";"FIXED IN:
+2022.3.3";08/02/2023 20:03
